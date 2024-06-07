@@ -1,0 +1,19 @@
+.optionButtonWrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.optionButton {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #4d5ae5;
+  transition: background-color 250ms ease-in-out;
+}
+
+.optionButton:hover,
+.optionButton:focus {
+  background-color: #404bbf;
+}
